@@ -48,14 +48,14 @@ def get_json(url: str) -> Dict:
 
 
 def memoize(fn: Callable) -> Callable:
-    """Decorator to memoize a method.
+    """Decorator to memoize a method.\n
     Example
     -------
-    class MyClass:
-        @memoize
-        def a_method(self):
-            print("a_method called")
-            return 42
+    >>> class MyClass:
+    ...    @memoize
+           def a_method(self):
+               print("a_method called")
+               return 42
     >>> my_object = MyClass()
     >>> my_object.a_method
     a_method called
