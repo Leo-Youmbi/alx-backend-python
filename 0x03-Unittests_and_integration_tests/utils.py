@@ -19,13 +19,13 @@ __all__ = [
 
 
 def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
-    """Access nested map with key path.
+    """Access nested map with key path.\n
     Parameters
     ----------
     nested_map: Mapping
         A nested map
     path: Sequence
-        a sequence of key representing a path to the value
+        a sequence of key representing a path to the value\n
     Example
     -------
     >>> nested_map = {"a": {"b": {"c": 1}}}
